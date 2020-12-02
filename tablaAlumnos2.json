@@ -1,0 +1,26 @@
+{
+    "identificacionAlumnos": [
+        "acg63",
+        "adf73"
+    ],
+    "tiempos": [
+        1898,
+        180
+    ],
+    "paginas": [
+        80,
+        31
+    ],
+    "calificaciones": [
+        5.9,
+        2.7
+    ],
+    "semanas": [
+        "Semana 1",
+        "Semana 1"
+    ],
+    "pruebas": [
+        1,
+        1
+    ]
+}

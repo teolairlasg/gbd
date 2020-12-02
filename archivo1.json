@@ -1,0 +1,10 @@
+{
+    "nombre": "Teo",
+    "apellido": "Lairla",
+    "edad": 34,
+    "mayorDeEdad": true,
+    "telefonos": [
+        "658998656",
+        "659998669"
+    ]
+}

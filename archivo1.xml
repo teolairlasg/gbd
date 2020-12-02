@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Equivalente en JSON
+{
+    "nombre": "Teo",
+    "apellido": "Lairla",
+    "edad": 34,
+    "mayorDeEdad": true,
+    "telefonos": [
+        "658998656",
+        "659998669"
+    ]
+} 
+-->
+<persona mayorDeEdad="true">
+    <nombre>Teo</nombre>
+    <apellido>Lairla</apellido>
+    <edad>34</edad>
+    <telefonos>
+        <telefono1>658998656</telefono1>
+        <telefono2>659998669</telefono2>
+    </telefonos>
+</persona>
