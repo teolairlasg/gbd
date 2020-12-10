@@ -1,7 +1,18 @@
 for (const alumno of datos) {
-    let parrafo = document.createElement("p");
-    document.body.appendChild(parrafo);
+    let lista = document.createElement("ul");
+    document.body.appendChild(lista);
     for (const propiedad in alumno) {
-        parrafo.innerHTML = parrafo.innerHTML + " " + alumno[propiedad];
+        let elemento = document.createElement("li");
+        elemento.innerHTML = propiedad+ ": " + alumno[propiedad];
+        lista.appendChild(elemento);
     }
 }
+
+//Modificad el programa para que sean listas anidadas.
+// * Alumno (acg63):
+//      - tiempo: 1898
+//      - ...
+// * Alumno (adf73):
+//      - tiempo: 180
+//      - ...
+// * Alumno...
